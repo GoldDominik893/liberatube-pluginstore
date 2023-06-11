@@ -1,5 +1,5 @@
 # liberatube-pluginstore
-This is the community driver plugin store for Liberatube, that includes themes and other customisations.
+This is the community driven plugin store for Liberatube, that includes themes and other customisations.
 ## Liability
 
 We take no responsibility for the use of our tool, or external instances
