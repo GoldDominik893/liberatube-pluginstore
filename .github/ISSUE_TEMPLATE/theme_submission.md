@@ -3,11 +3,8 @@
 ### Description
 [Provide a brief description of the CSS files you are submitting. Include any special features, compatibility notes, or design principles.]
 
-### Files
-- [File Name 1](link/to/file/1.css)
-- [File Name 2](link/to/file/2.css)
-- [File Name 3](link/to/file/3.css)
-- [Add more files if necessary]
+### CSS Files
+Drag and drop your css files here. You should have 2 css files, 1 for home and 1 for player or 1 combined one.
 
 ### Screenshots (if applicable)
 [Add screenshots of the CSS files in action or their effect on Liberatube. If not applicable, you can remove this section.]
@@ -20,8 +17,6 @@
 
 ### Checklist
 Please make sure to check the following before submitting:
-- [ ] The CSS files adhere to Liberatube's guidelines and design principles.
-- [ ] All files are properly formatted and documented (if applicable).
 - [ ] Any external resources or dependencies are clearly mentioned.
 - [ ] Screenshots or visual references are provided (if applicable).
 - [ ] The license information is included.
