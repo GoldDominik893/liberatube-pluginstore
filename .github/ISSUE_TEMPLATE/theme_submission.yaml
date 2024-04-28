@@ -1,0 +1,32 @@
+name: Liberatube Theme Submission
+description: Submit themes to the Liberatube themes store.
+title: "[Plugin Submission]"
+
+body: 
+- type: markdown
+
+files:
+  description: Links to CSS files being submitted
+  - name: "player css"
+    link: "drag and drop files here"
+  - name: "home css"
+    link: "drag and drop files here"
+    OR
+  - name: "combined css"
+    link: "drag and drop files here"
+
+screenshots:
+  description: Add screenshots of the CSS files in action or their effect on Liberatube (if applicable)
+
+additional_information: |
+  Include any additional information or instructions related to the CSS files. This could include installation notes, usage examples, or any dependencies required.
+
+license: |
+  Specify the license under which the CSS files are released. If they are open source, provide the license text or a link to it.
+
+checklist:
+  - The CSS files adhere to Liberatube's guidelines and design principles.
+  - All files are properly formatted and documented (if applicable).
+  - Any external resources or dependencies are clearly mentioned.
+  - Screenshots or visual references are provided (if applicable).
+  - The license information is included.
