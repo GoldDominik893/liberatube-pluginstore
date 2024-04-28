@@ -2,31 +2,41 @@ name: Liberatube Theme Submission
 description: Submit themes to the Liberatube themes store.
 title: "[Plugin Submission]"
 
-body: 
-- type: markdown
+body:
 
-files:
-  description: Links to CSS files being submitted
-  - name: "player css"
-    link: "drag and drop files here"
-  - name: "home css"
-    link: "drag and drop files here"
-    OR
-  - name: "combined css"
-    link: "drag and drop files here"
+- type: textarea
+  id: css-files
+  attributes:
+   label: Drag and drop your css files into the textarea below.
+   description: You should have 2 files being player and home css OR have 1 combined file.
+  validations:
+   required: true
 
-screenshots:
-  description: Add screenshots of the CSS files in action or their effect on Liberatube (if applicable)
+- type: textarea
+  id: more-infos
+   attributes:
+    label: Additional information and Screenshots (Optional)
+    description: "If you want to add other information on your theme, do so here:"
+    placeholder: "Example: This plugin aims to bring the old YouTube look back."
+   validations:
+    required: false
 
-additional_information: |
-  Include any additional information or instructions related to the CSS files. This could include installation notes, usage examples, or any dependencies required.
+- type: input
+  id: country
+   attributes:
+    label: Licensing Information
+    placeholder: "Example: It is licensed under the AGPL v3 Licence"
+   validations:
+    required: true
 
-license: |
-  Specify the license under which the CSS files are released. If they are open source, provide the license text or a link to it.
-
-checklist:
-  - The CSS files adhere to Liberatube's guidelines and design principles.
-  - All files are properly formatted and documented (if applicable).
-  - Any external resources or dependencies are clearly mentioned.
-  - Screenshots or visual references are provided (if applicable).
-  - The license information is included.
+- type: checkboxes
+  id: checklist
+    attributes:
+      label: Checklist
+      options:
+      - label: "The CSS files adhere to Liberatube's guidelines and design principles."
+        required: false
+      - label: "Any external resources or dependencies are clearly mentioned."
+        required: false
+      - label: "The license information is included."
+        required: false
