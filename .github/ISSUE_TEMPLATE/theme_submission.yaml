@@ -1,7 +1,9 @@
 name: Liberatube Theme Submission
 description: Submit themes to the Liberatube themes store.
 title: '[Plugin Submission]'
+
 body:
+
   - type: textarea
     id: css-files
     attributes:
@@ -9,8 +11,9 @@ body:
       description: >-
         You should have 2 files being player and home css OR have 1 combined
         file.
-    validations:
-      required: true
+      validations:
+       required: true
+      
   - type: textarea
     id: more-infos
     attributes:
@@ -19,13 +22,15 @@ body:
       placeholder: 'Example: This plugin aims to bring the old YouTube look back.'
       validations:
         required: false
+        
   - type: input
     id: country
     attributes:
       label: Licensing Information
       placeholder: 'Example: It is licensed under the AGPL v3 Licence'
-    validations:
-      required: true
+      validations:
+       required: true
+      
   - type: checkboxes
     id: checklist
     attributes:
