@@ -11,8 +11,8 @@ body:
       description: >-
         You should have 2 files being player and home css OR have 1 combined
         file.
-      validations:
-       required: true
+    validations:
+      required: true
       
   - type: textarea
     id: more-infos
@@ -20,16 +20,16 @@ body:
       label: Additional information and Screenshots (Optional)
       description: 'If you want to add other information on your theme, do so here:'
       placeholder: 'Example: This plugin aims to bring the old YouTube look back.'
-      validations:
-        required: false
+    validations:
+      required: false
         
   - type: input
     id: country
     attributes:
       label: Licensing Information
       placeholder: 'Example: It is licensed under the AGPL v3 Licence'
-      validations:
-       required: true
+    validations:
+      required: true
       
   - type: checkboxes
     id: checklist
