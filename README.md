@@ -10,6 +10,7 @@ List of the plugins that are currently on the plugin store:
 
 * Debloated - no license
 * Librebook - AGPL v3
+* bing theme - no license
 
 ### Liability
 
