@@ -1,6 +1,17 @@
 # liberatube-pluginstore
+
+### About
+
 This is the community driven plugin store for Liberatube, that includes themes and other customisations.
-## Liability
+
+### Plugins
+
+List of the plugins that are currently on the plugin store:
+
+* Debloated - no license
+* Librebook - AGPL v3
+
+### Liability
 
 We take no responsibility for the use of our tool, or external instances
 provided by third parties. We strongly recommend you abide by the valid
