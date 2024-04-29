@@ -1,0 +1,266 @@
+/*  
+    Copyright (C) 2024 Librebook
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+@font-face {
+    font-family: 'Signika Negative';
+    src: url('/styles/-signikanegative400.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    padding: 0px;
+    color: white;
+    background-color: #1a1a1a;
+    color-scheme: dark;
+}
+
+.w3-animate-left {
+    position: relative;
+    animation: none !important;
+}
+
+a {
+    color: #777;
+}
+a:hover, a:focus {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.awhite {
+    color: white;
+}
+.awhite:hover {
+    color: DodgerBlue;
+}
+.tenborder {
+    padding: 10px;
+}
+.sidebar {
+    background-color: #115293;
+    line-height: 0.5;
+}
+.sidebarbtn-selected {
+    background-color: #1877f2;
+}
+.sidebarbtn:hover {
+    background-color: #1877f2;
+}
+.awhitesidebar {
+    color: white;
+}
+.awhitesidebar:hover {
+    color: lightgray;
+}
+.sidebarbtn-selected:hover {
+    background-color: #070707;
+}
+.awhite {
+    color: white;
+}
+.awhite:hover {
+    color: DodgerBlue;
+}
+.tenborder {
+    padding: 10px;
+}
+
+
+
+.hr {
+margin: 3px;
+margin-right: 5px;
+margin-left: 5px;
+height: 1px;
+color: #242424;
+background-color: #242424;
+border: none;
+}
+::-webkit-scrollbar{width:8px; height: 8px;}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background: rgba(100,100,100,0.4); border-radius:5px;}
+::-webkit-scrollbar-thumb:hover{background: rgba(70,70,70,0.4);}
+
+.awhite:hover {
+    color: DodgerBlue;
+}
+.tenborder {
+    padding: 10px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(20,20,20,0.2);
+    color: white;
+    border-radius: 6px;
+    border: 2px solid rgb(27, 27, 27);
+    transition: transform 0.2s;
+    transition: 0.3s
+    }
+.button:hover {
+cursor: pointer;
+color: #ff4444;
+background-color: rgba(30,30,30,0.2);
+text-decoration: none;
+transition: transform 0.2s;
+transition: 0.3s
+}
+
+.sidebarbtn {
+     color: white;
+     border-radius: 6px;
+     transition: transform 0.2s;
+     transition: 0.3s
+}
+.sidebarbtn:hover {
+     transition: transform 0.2s;
+     transition: 0.3s
+}
+.sidebarbtn:focus {
+     transition: transform 0.2s;
+     transition: 0.3s
+}
+.input-field {
+    width: 200px;
+    border-radius: 3px;
+    padding: 5px;
+    border: #202020 2px solid;
+    background: #080808;
+}
+.input-field:focus {
+    color: white;
+}
+.btn-submit {
+    padding: 10px 10px;
+    border: #202020 2px solid;
+    background: #080808;
+    color: #ffffff;
+    font-size: 0.9em;
+    width: 100px;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+.video-tile {
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-right: 7px;
+    margin-right: 7px;
+    text-align: left;
+}
+
+.videoDiv {
+    width: 256px;
+    height: 148px;
+    display: inline-block;
+}
+.videoTitle {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: initial;
+}
+.videoDesc {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: initial;
+}
+.videoInfo {
+    width: 256px;
+}
+
+.search-inline {
+    display: inline-block;
+}
+
+
+.tenborder {
+    padding: 10px;
+}
+
+.topbar {
+    width: 100%;
+    font-size: 20px;
+}
+.topbarelements {
+  display: inline-block;
+}
+.topbarelements-right {
+  float: right;
+  margin-top: 5px;
+}
+.topbarelements-center {
+  float: center;
+}
+.button {
+display: inline-block;
+padding: 6px 12px;
+text-align: center;
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0.9);
+border-radius: 6px;
+outline: none;
+color: white;
+}
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 48
+}
+.login-item {
+    display: inline-block;
+    padding: 1px 6px 1px 6px;
+}
+.login-item-icon {
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.login-item-icon, .login-item-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.awhitesidebar, .awhite {
+    color: white;
+}
+
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #FFA50033, #80008033);
+    border-radius: 8px;
+}
+.timestamp {
+    position: absolute;
+    margin-top: -23px;
+    right: 4px;
+    background: rgba(0,0,0,0.7);
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+}
+img {
+    border-radius: 5px
+}
