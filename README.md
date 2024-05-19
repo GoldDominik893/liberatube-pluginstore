@@ -12,6 +12,7 @@ List of the plugins that are currently on the plugin store:
 * Librebook - AGPL v3
 * bing theme - no license
 * light theme - no license
+* rgb theme - no license
 
 ### Liability
 
