@@ -18,9 +18,7 @@
 @font-face {
     font-family: 'Signika Negative';
     src: url('signikanegative400.ttf') format('truetype');
-}
 
-@font-face {
     font-family: 'Material Symbols Outlined';
     font-style: normal;
     font-weight: 100 700;
