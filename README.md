@@ -10,6 +10,7 @@ List of the plugins that are currently on the plugin store:
 
 * Debloated - no license
 * Sonora - GNU GPL
+    * Contains Google Icons (Apache License 2.0) and Signika Negative (Open Font License).
 * Librebook - AGPL v3
     * Contains Google Icons (Apache License 2.0) and Signika Negative (Open Font License).
 * bing theme - no license
